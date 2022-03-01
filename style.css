@@ -1,94 +1,58 @@
-html, body
-{
-  height: 100%;
-  margin: 0;
-}
-
 body
 {
-background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
-}
+	background: #ef32d9;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   text-align: center;
 
-.header
+}
+.login_div1{
+	margin-left: 450px;
+	margin-top: 40px;
+}
+.login_div2{
+	margin-top: 40px;
+	margin-left: 435px;
+}
+  #login{
+	  margin-top: 70px;
+	  margin-right: 20px;
+	  margin-left: 20px;
+
+  }
+
+  #player1_name, #player2_name
+  {
+	display: inline-block;
+	margin-left: 20px;
+  }
+  #result{
+	  margin-right:90%;
+	  border-radius:20px;
+	  border-color: black;
+  }
+
+  #container{
+	  margin-bottom:200px;
+  }
+
+
+
+#word
 {
-	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	width: 60%;
 }
-.header img
+#word_display
 {
-	width: 80px;margin-left: -15px;
+	letter-spacing: 5px;
 }
-
-.login_div
-{
-	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
-}
-
-.logo
-{
-	width: 80px;margin-top: 30px;border-radius: 40px;
-}
-
-#login_button
-{
-	width: 80%;border-radius: 15px;
-}
-
-.room_name
-{
-	cursor: pointer;
-	font-size: 20px;
-}
-
-
-#logout
-{
-	font-size: 20px; float: right;
-}
-
-
 #output
 {
-	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
-}
-
-.input_div_room_page
-{
-	width: 80%;
-}
-
-.input_div label
-{
-	color: white;font-size: 20px;
-}
-
-
-.input_div_message_page
-{
-	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
-}
-.input_div_message_page label
-{
-	color: black;
-}
-.input_div_message_page #msg
-{
-	width: 80%;
-}
-.input_div_message_page button
-{
-	margin-top: 15px;
-	width: 50%; 
-}
-.color_white
-{
-	color: white
-}
-
-.user_tick
-{
-	width:20px;
-}
-.message_h4
-{
-	padding-left:5px;color:grey;
+background:white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+height:80;
+text-align: left;
 }
